@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--Bigfoot9999 says hello-->
+<html lang="en-us">
+  <head>
+    <script>
+      if (window.parent !== window.self) window.parent.postMessage("bonk", "*");
+      window.addEventListener("DOMContentLoaded", function () {
+        document.body.style.margin = "0";
+        document.body.style.height = "100vh";
+        document.body.style.overflow = "hidden";
+      });
+    </script>
+    <title>Slope Game | MRGOAT</title>
+
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="TemplateData56/style.css" />
+    <script src="TemplateData56/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate(
+        "gameContainer",
+        "Build/slope_27Sept.json",
+        {
+          onProgress: UnityProgress,
+          Module: {
+            onRuntimeInitialized: function () {
+              UnityProgress(gameInstance, "complete");
+            },
+          },
+        }
+      );
+    </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-W5JW8H48BX");
+    </script>
+    <script src="shared/lib.js" type="text/javascript"></script>
+    <script src="shared/gamebreak/gamebreak.js" type="text/javascript"></script>
+    <link
+      href="https://fonts.cdnfonts.com/css/monument-extended"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 100vw; height: 100vh"></div>
+    </div>
+    <!-- hitwebcounter Code START -->
+    
+  </body>
+</html>
