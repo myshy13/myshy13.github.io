@@ -1,0 +1,45 @@
+<head>
+</head>
+
+<body style="background-color: black; padding: 0; margin: 0; height: 100%; overflow:hidden;">
+<div class='game-container'>
+    <iframe id='gameFrame'></iframe>
+</div>
+
+<style>
+    .game-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1000px;
+        height: 560px;
+    }
+
+    .game-frame {
+        border: 0;
+        width: 1000px;
+        height: 560px;
+    }
+
+    .game-frame-desktop {
+        width: 1000px;
+        height: 560px;
+    }
+</style>
+<script>
+    var orientation = (screen.orientation || {}).type || screen.mozOrientation || screen.msOrientation;
+    var gameFrame = document.getElementById("gameFrame");
+
+    gameFrame.src = "https://playsaurus.com/MrMineCMG/index.html";
+    gameFrame.classList.add("game-frame-desktop");
+
+    function getParameterByName(name, url = window.location.href) {
+        name = name.replace(/[\[\]]/g, '\\$&');
+        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+            results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+    }
+</script>
+</body>
