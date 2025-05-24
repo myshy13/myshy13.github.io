@@ -1,7 +1,8 @@
 .sidebar {
   width: 15vw;
   background-color: #12419a;
-  height: 100vh;
+  min-height: 100vh;
+  min-width: fit-content;
 
   margin: 0px;
   margin-right: 10px;
@@ -44,7 +45,8 @@
 
   font-size: x-small;
   position: absolute;
-  bottom: 0;
+  top: auto;
+  height: 2em;
   padding: 1em;
   width: 15vw;
   box-sizing: border-box;
