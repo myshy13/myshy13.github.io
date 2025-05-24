@@ -6,7 +6,7 @@
   margin: 0px;
   margin-right: 10px;
 
-  display: inline-flex;
+  display:list-item;
   flex-direction: column;
 
   color: white;
