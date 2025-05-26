@@ -85,6 +85,7 @@
                       image-rendering: optimizeSpeed;
                       -webkit-interpolation-mode: nearest-neighbor;
                       -ms-touch-action: none;
+                      touch-action: none;
                       margin: 0px;
                       padding: 0px;
                       border: 0px;
@@ -138,7 +139,6 @@
             </div>
             
             <img  src="html5game/bgLoading.png" id="img_cursorHandler" alt="" style="position:absolute; left : 0; top : 0; width: 100%; height: 100% ; opacity: 0.0;    
-              user-drag: none;
               -webkit-user-drag: none;
               user-select: none;
               -moz-user-select: none;
@@ -4754,8 +4754,7 @@ _Pg,false);canvas.addEventListener("MSPointerOut",_Pg,false);}else {canvas.ontou
 * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */;
-(function(name,context,_Vg){if(typeof module!=='undefined'&&module._Wg){module._Wg=_Vg();}else if(typeof define==='function'&&define._Xg){define(_Vg);}else {context[name]=_Vg();}})('Fingerprint',this,function(){'use strict';var Fingerprint=function(options){var _Yg,_Zg;_Yg=Array.prototype.forEach;_Zg=Array.prototype.map;this.__g=function(_0h,_1h,context){if(_0h===null){return;}if(_Yg&&_0h.forEach===_Yg){_0h.forEach(_1h,context);}else if(_0h.length===+_0h.length){for(var i=0,_57=_0h.length;i<_57;i++){if(_1h.call(context,
-_0h[i],i,_0h)==={})return;}}else {for(var key in _0h){if(_0h.hasOwnProperty(key)){if(_1h.call(context,_0h[key],key,_0h)==={})return;}}}};this.map=function(_0h,_1h,context){var _2h=[];if(_0h==null)return _2h;if(_Zg&&_0h.map===_Zg)return _0h.map(_1h,context);this.__g(_0h,function(value,index,_3h){_2h[_2h.length]=_1h.call(context,value,index,_3h);});return _2h;};if(typeof options=='object'){this._4h=options._4h;this._5h=options._5h;this._6h=options._6h;this.canvas=options.canvas;this._7h=options._7h;}else if(typeof options=='function'){
+(function(name,context,_Vg){if(typeof module!=='undefined'&&module._Wg){module._Wg=_Vg();}else if(typeof define==='function'&&define._Xg){define(_Vg);}else {context[name]=_Vg();}})('Fingerprint',this,function(){'use strict';var Fingerprint=function(options){var _Yg,_Zg;_Yg=Array.prototype.forEach;_Zg=Array.prototype.map;this.__g=function(_0h,_1h,context){if(_0h===null){return;}if(_Yg&&_0h.forEach===_Yg){_0h.forEach(_1h,context);}else if(_0h.length===+_0h.length){for(var i=0,_57=_0h.length;i<_57;i++){if(false)return;}}else {for(var key in _0h){if(_0h.hasOwnProperty(key)){if(false)return;}}}};this.map=function(_0h,_1h,context){var _2h=[];if(_0h==null)return _2h;if(_Zg&&_0h.map===_Zg)return _0h.map(_1h,context);this.__g(_0h,function(value,index,_3h){_2h[_2h.length]=_1h.call(context,value,index,_3h);});return _2h;};if(typeof options=='object'){this._4h=options._4h;this._5h=options._5h;this._6h=options._6h;this.canvas=options.canvas;this._7h=options._7h;}else if(typeof options=='function'){
 this._4h=options;}};Fingerprint.prototype={get :function(){var _8h=[];_8h.push(navigator.userAgent);_8h.push(navigator.language);_8h.push(screen.colorDepth);if(this._5h){var resolution=this._9h();if(typeof resolution!=='undefined'){_8h.push(resolution.join('x'));}}_8h.push(new Date().getTimezoneOffset());_8h.push(this.hasSessionStorage());_8h.push(this.hasLocalStorage());_8h.push(!!window.indexedDB);if(document.body){_8h.push(typeof(document.body.addBehavior));}else {_8h.push(typeof undefined);}_8h.push(typeof(window.openDatabase));
 _8h.push(navigator.cpuClass);_8h.push(navigator.platform);_8h.push(navigator.doNotTrack);_8h.push(this._ah());if(this.canvas&&this._bh()){_8h.push(this._ch());}if(this._4h){return this._4h(_8h.join('###'),31);}else {return this._dh(_8h.join('###'),31);}},/*
      * JS Implementation of MurmurHash3 (r136) (as of May 20, 2011)
