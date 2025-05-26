@@ -39,23 +39,6 @@
   color: white;
 }
 
-.credits {
-  color: white;
-  font-weight: normal;
-
-  font-size: x-small;
-  position: absolute;
-  top: auto;
-  height: 2em;
-  padding: 1em;
-  width: 15vw;
-  box-sizing: border-box;
-  height: fit-content;
-  clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100%, 0%);
-  background-color: rgba(255, 255, 255, 0.5); /* Adjust the opacity as needed */
-  backdrop-filter: blur(10px); /* Adjust the blur radius as needed */
-}
-
 :any-link {
   text-decoration: none;
   color: white;
@@ -65,7 +48,5 @@
   .sidebar {
     width: fit-content;
   }
-  .credits {
-    width: 167.483px;
-  }
 }
+
