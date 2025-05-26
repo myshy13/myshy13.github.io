@@ -1,0 +1,37 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/src/slope/",
+      "destination": "/src/slope/index.html"
+    },
+    {
+      "source": "/src/minecraft/",
+      "destination": "/src/minecraft/index.html"
+    },
+    {
+      "source": "/src/run3/",
+      "destination": "/src/run3/index.html"
+    },
+    {
+      "source": "/src/tinyFishing/",
+      "destination": "/src/tinyFishing/index.html"
+    },
+    {
+      "source": "/src/mrmine/",
+      "destination": "/src/mrmine/index.html"
+    },
+    {
+        "source": "/src/moto/x3m/",
+        "destination": "/src/moto/x3m/index.html"
+    },
+    {
+        "source": "/src/jellytruck/",
+        "destination": "/src/jellytruck/index.html"
+    }
+  ]
+}
