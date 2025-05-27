@@ -60,4 +60,14 @@ body {
   transform: translate(40%, -40%);
 }
 
+.search {
+  padding: 0.5em;
+  outline: none;
+  margin: 0;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  border: none;
+  border-radius: 1em;
+}
+
 /* if you can see this message, the styling is complete */

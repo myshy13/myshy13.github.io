@@ -24,6 +24,27 @@
         <h1>MRGOAT</h1>
         <h4>made by myshy13</h4>
       </div>
+      <form class="searchBar" action="/">
+        <input
+        list="games"
+          type="search"
+          placeholder="search here"
+          name="search"
+          class="search"
+        />
+        <datalist id="games">
+          <option value="minecraft"></option>
+          <option value="slope"></option>
+          <option value="run 3"></option>
+          <option value="mr mine"></option>
+          <option value="moto x3m"></option>
+          <option value="opposite day"></option>
+          <option value="2048"></option>
+          <option value="cookie clicker"></option>
+          <option value="jelly truck"></option>
+          <option value="tiny fishing"></option>
+        </datalist>
+      </form>
       <p></p>
       <ul class="sidebar-menu">
         <a href="/src/run3/index.html" target="_blank">
@@ -50,9 +71,7 @@
         <a href="/src/oppositeday/index.html" target="_blank"
           ><li>opposite day</li>
         </a>
-        <a href="/src/2048/index.html" target="_blank"
-          ><li>2048</li>
-        </a>
+        <a href="/src/2048/index.html" target="_blank"><li>2048</li> </a>
         <a href="/src/cookieclicker/index.html" target="_blank"
           ><li>cookie clicker</li>
         </a>
@@ -62,7 +81,11 @@
     <div class="content">
       <a class="gameDisplay" href="/src/slope/index.html" target="_blank">
         <img src="./star.svg" alt="favourite-badge" class="starBadge" />
-        <img src="src/slope/logo.png" alt="logo for the slope game" class="gameIcon" />
+        <img
+          src="src/slope/logo.png"
+          alt="logo for the slope game"
+          class="gameIcon"
+        />
         <h1>slope</h1>
       </a>
       <a class="gameDisplay" href="/src/run3/index.html" target="_blank">
@@ -76,34 +99,67 @@
         <h1>mr mine</h1>
       </a>
       <a class="gameDisplay" href="/src/tinyFishing/index.html" target="_blank">
-        <img src="src/tinyFishing/logo.png" alt="tiny fishing logo" class="gameIcon" />
+        <img
+          src="src/tinyFishing/logo.png"
+          alt="tiny fishing logo"
+          class="gameIcon"
+        />
         <h1>tiny fishing</h1>
       </a>
       <a class="gameDisplay" href="/src/moto/x3m/index.html" target="_blank">
-        <img src="src/moto/x3m/logo.png" alt="moto x3m logo (a guy on a motorbike in the game)" class="gameIcon" />
+        <img
+          src="src/moto/x3m/logo.png"
+          alt="moto x3m logo (a guy on a motorbike in the game)"
+          class="gameIcon"
+        />
         <h1>moto x3m</h1>
       </a>
       <a class="gameDisplay" href="/src/minecraft/index.html" target="_blank">
-        <img src="src/minecraft/logo.png" alt="the minecraft logo" class="gameIcon" />
+        <img
+          src="src/minecraft/logo.png"
+          alt="the minecraft logo"
+          class="gameIcon"
+        />
         <h1>minecraft</h1>
       </a>
       <a class="gameDisplay" href="/src/jellytruck/index.html" target="_blank">
-        <img src="src/jellytruck/logo.jpg" alt="the jellytruck game logo" class="gameIcon" />
+        <img
+          src="src/jellytruck/logo.jpg"
+          alt="the jellytruck game logo"
+          class="gameIcon"
+        />
         <h1>jelly truck</h1>
       </a>
       <a class="gameDisplay" href="/src/oppositeday/index.html" target="_blank">
-        <img src="src/oppositeday/logo.webp" alt="the game logo for the game 'opposite day'" class="gameIcon" />
+        <img
+          src="src/oppositeday/logo.webp"
+          alt="the game logo for the game 'opposite day'"
+          class="gameIcon"
+        />
         <h1>opposite day</h1>
       </a>
       <a class="gameDisplay" href="/src/2048/index.html" target="_blank">
-        <img src="src/2048/logo.webp" alt="the 2048 game logo" class="gameIcon" />
+        <img
+          src="src/2048/logo.webp"
+          alt="the 2048 game logo"
+          class="gameIcon"
+        />
         <h1>2048</h1>
       </a>
-      <a class="gameDisplay" href="/src/cookieclicker/index.html" target="_blank">
-        <img src="src/cookieclicker/logo.png" alt="the 2048 game logo" class="gameIcon" />
+      <a
+        class="gameDisplay"
+        href="/src/cookieclicker/index.html"
+        target="_blank"
+      >
+        <img
+          src="src/cookieclicker/logo.png"
+          alt="the 2048 game logo"
+          class="gameIcon"
+        />
         <h1>cookie clicker</h1>
       </a>
     </div>
     <!-- end content -->
+     <script src="search.js"></script>
   </body>
 </html>
