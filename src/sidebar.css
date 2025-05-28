@@ -1,5 +1,5 @@
 .sidebar {
-  width: 15vw;
+  width: 23em;
   background-color: #12419a;
   min-height: 100vh;
   min-width: fit-content;
@@ -50,3 +50,9 @@
   }
 }
 
+.sidebar-menu {
+  text-align: left;
+  margin-left: 0em;
+  margin: 0px;
+  padding: 0.2em;
+}

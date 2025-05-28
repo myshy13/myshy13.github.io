@@ -41,12 +41,14 @@ if (searchQuery != "" && searchQuery != null) {
             document.location.port
           }${"/src/minecraft/index.html"}`
         );
-      case "moto":
+        break;
+      case "moto x3m":
         window.location.assign(
           `${document.location.protocol}//${document.location.hostname}:${
             document.location.port
           }${"/src/moto/x3m/index.html"}`
         );
+        break;
       case "mr mine":
         window.location.assign(
           `${document.location.protocol}//${document.location.hostname}:${

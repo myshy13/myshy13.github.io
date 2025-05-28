@@ -135,3 +135,12 @@ this is for the game elements animation*/
     scale: 1.05;
   }
 }
+
+.dropdown-option {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.last-option {
+  margin-bottom: 0;
+}
