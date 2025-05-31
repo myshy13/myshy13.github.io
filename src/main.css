@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Boogaloo";
+  src: url('/src/Boogaloo/Boogaloo-Regular.ttf') format('truetype');
+}
+
 body {
   background-image: url("../background.jpg");
   background-size: cover;
@@ -36,7 +41,7 @@ body {
 
   box-sizing: border-box;
   margin: 1em;
-  transition: 0.1s cubic-bezier(.17,.67,.49,1.56);
+  transition: 0.1s cubic-bezier(0.17, 0.67, 0.49, 1.56);
 }
 
 .gameDisplay > .gameIcon {
@@ -49,7 +54,7 @@ body {
 
 .gameDisplay:hover {
   animation: getBigger;
-  animation-timing-function: cubic-bezier(.17,.67,.49,1.56);
+  animation-timing-function: cubic-bezier(0.17, 0.67, 0.49, 1.56);
   animation-duration: 0.5s;
   animation-delay: 0s;
   animation-iteration-count: 1;
@@ -79,7 +84,6 @@ body {
 
 /* if you can see this message, the styling is complete */
 
-
 .dropdown {
   position: relative;
   display: inline-block;
@@ -103,7 +107,7 @@ body {
   font-size: -1em;
   position: absolute;
   background-color: #1c63e8;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   padding: 12px 16px;
   z-index: 1;
   transition: 0.5s ease;
@@ -125,8 +129,6 @@ body {
 /* cubic-bezier(.17,.67,.49,1.56); 
 this is for the game elements animation*/
 
-
-
 @keyframes getBigger {
   0% {
     scale: 1;
@@ -143,4 +145,18 @@ this is for the game elements animation*/
 
 .last-option {
   margin-bottom: 0;
+}
+
+.challengeLink {
+  font-family: "Boogaloo", sans-serif;
+  font-size: 3em;
+  background-color: #1c63e875;
+  height: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.2em;
 }
