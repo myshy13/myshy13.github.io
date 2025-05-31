@@ -1,3 +1,5 @@
+/* at the bottom of the file, you should see a message saying "css file fully loaded", if not, i am trying to fix the issue right now */
+
 @font-face {
   font-family: "Boogaloo";
   src: url('/src/Boogaloo/Boogaloo-Regular.ttf') format('truetype');
@@ -160,3 +162,5 @@ this is for the game elements animation*/
   margin-right: auto;
   border-radius: 0.2em;
 }
+
+/* css file fully loaded */
