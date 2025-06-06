@@ -6,4 +6,5 @@ https://myshy13.github.io/src/mrmine/index.html
 https://myshy13.github.io/src/run3/index.html
 https://myshy13.github.io/src/slope/index.html
 https://myshy13.github.io/src/tinyFishing/index.html
-https://myshy13.github.io/src/oppositeday/index.html
+https://myshy13.github.io/src/cookieclicker/index.html
+https://myshy13.github.io/src/hexanautIO/index.html

@@ -9,6 +9,7 @@ const games = [
   "2048",
   "cookie clicker",
   "tiny fishing",
+  "hexanaut.io"
 ];
 
 let params = new URLSearchParams(new URL(window.location.href).search);
@@ -96,6 +97,13 @@ if (searchQuery != "" && searchQuery != null) {
           `${document.location.protocol}//${document.location.hostname}:${
             document.location.port
           }${"/src/tinyFishing/index.html"}`
+        );
+        break;
+        case "hexanaut.io":
+        window.location.assign(
+          `${document.location.protocol}//${document.location.hostname}:${
+            document.location.port
+          }${"/src/hexanautIO/index.html"}`
         );
         break;
       default:
