@@ -9,7 +9,9 @@ const games = [
   "2048",
   "cookie clicker",
   "tiny fishing",
-  "hexanaut.io"
+  "hexanaut.io",
+  "a small world cup",
+  "asmallworldcup",
 ];
 
 let params = new URLSearchParams(new URL(window.location.href).search);
@@ -99,11 +101,25 @@ if (searchQuery != "" && searchQuery != null) {
           }${"/src/tinyFishing/index.html"}`
         );
         break;
-        case "hexanaut.io":
+      case "hexanaut.io":
         window.location.assign(
           `${document.location.protocol}//${document.location.hostname}:${
             document.location.port
           }${"/src/hexanautIO/index.html"}`
+        );
+        break;
+      case "a small world cup":
+        window.location.assign(
+          `${document.location.protocol}//${document.location.hostname}:${
+            document.location.port
+          }${"/src/asmallworldcup/index.html"}`
+        );
+        break;
+      case "asmallworldcup":
+        window.location.assign(
+          `${document.location.protocol}//${document.location.hostname}:${
+            document.location.port
+          }${"/src/asmallworldcup/index.html"}`
         );
         break;
       default:
