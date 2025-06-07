@@ -11,6 +11,11 @@
     <priority>0.1</priority>
   </url>
   <url>
+    <loc>https://myshy13.github.io/src/cookieclicker/index.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://myshy13.github.io/src/minecraft/index.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
@@ -47,6 +52,11 @@
   </url>
   <url>
     <loc>https://myshy13.github.io/src/hexanautIO/index.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://myshy13.github.io/src/asmallworldcup/index.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
