@@ -1,1 +1,57 @@
 */node_modules/*
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Vite build output
+dist/
+.vite/
+
+# Vite cache
+node_modules/.vite/
+
+# SWC cache
+.swc/
+
+# Deno
+deno.lock
+deno_dir/
+.deno/
+*.tsbuildinfo
+
+# General node/npm/yarn/pnpm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# .github workflows cache/artifacts
+.github/workflows/*.log
+.github/workflows/*.tmp
+.github/.DS_Store
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Misc
+*.local
+*.log
+*.tgz
+*.swp
+*.swo
+*.bak
+*.tmp
