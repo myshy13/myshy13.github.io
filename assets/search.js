@@ -14,6 +14,7 @@ const games = [
   "asmallworldcup",
   "bitlife",
   "bitlife simulator",
+  "slope 3",
 ];
 
 let params = new URLSearchParams(new URL(window.location.href).search);
@@ -66,6 +67,13 @@ if (searchQuery != "" && searchQuery != null) {
           `${document.location.protocol}//${document.location.hostname}:${
             document.location.port
           }${"/src/slope/index.html"}`
+        );
+        break;
+        case "slope 3":
+        window.location.assign(
+          `${document.location.protocol}//${document.location.hostname}:${
+            document.location.port
+          }${"/src/slope3/index.html"}`
         );
         break;
       case "run 3":
