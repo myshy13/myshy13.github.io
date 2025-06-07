@@ -12,6 +12,8 @@ const games = [
   "hexanaut.io",
   "a small world cup",
   "asmallworldcup",
+  "bitlife",
+  "bitlife simulator",
 ];
 
 let params = new URLSearchParams(new URL(window.location.href).search);
@@ -120,6 +122,20 @@ if (searchQuery != "" && searchQuery != null) {
           `${document.location.protocol}//${document.location.hostname}:${
             document.location.port
           }${"/src/asmallworldcup/index.html"}`
+        );
+        break;
+      case "bitlife":
+        window.location.assign(
+          `${document.location.protocol}//${document.location.hostname}:${
+            document.location.port
+          }${"/src/bitlife/index.html"}`
+        );
+        break;
+      case "bitlife simulator":
+        window.location.assign(
+          `${document.location.protocol}//${document.location.hostname}:${
+            document.location.port
+          }${"/src/bitlife/index.html"}`
         );
         break;
       default:
