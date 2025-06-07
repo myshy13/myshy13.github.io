@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url("../background.jpg");
+  background-image: url("/background.jpg");
   background-size: cover;
 
   display: flex;
@@ -29,7 +29,7 @@ body {
 
 .gameDisplay {
   height: fit-content;
-  padding: 1em;
+  padding: 0.5em;
 
   white-space: nowrap;
 
@@ -39,11 +39,12 @@ body {
 
   background-color: #1c63e898;
 
-  border-radius: 1em;
+  border-radius: 1.6em;
 
   box-sizing: border-box;
   margin: 1em;
   transition: 0.1s cubic-bezier(0.17, 0.67, 0.49, 1.56);
+  border: 5px solid #ffffff0f;
 }
 
 .gameDisplay > .gameIcon {
