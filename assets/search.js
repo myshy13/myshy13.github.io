@@ -15,6 +15,7 @@ const games = [
   "bitlife",
   "bitlife simulator",
   "slope 3",
+  "subway surfers",
 ];
 
 let params = new URLSearchParams(new URL(window.location.href).search);
@@ -144,6 +145,13 @@ if (searchQuery != "" && searchQuery != null) {
           `${document.location.protocol}//${document.location.hostname}:${
             document.location.port
           }${"/src/bitlife/index.html"}`
+        );
+        break;
+        case "subway surfers":
+        window.location.assign(
+          `${document.location.protocol}//${document.location.hostname}:${
+            document.location.port
+          }${"/src/subwaysurfers/index.html"}`
         );
         break;
       default:

@@ -1,4 +1,16 @@
-*/node_modules/*
+# Node.js dependencies
+node_modules/
+# TypeScript output
+dist/
+# Build artifacts
+build/
+# Logs
+logs/
+*.log
+# Dependency directories
+jspm_packages/
+# Coverage reports
+coverage/
 # macOS system files
 .DS_Store
 .AppleDouble
@@ -55,3 +67,16 @@ pnpm-lock.yaml
 *.swo
 *.bak
 *.tmp
+
+node_modules/.bin/
+
+# Temporary files
+*.tmp
+# Backup files
+*.bak
+# IDE specific files
+*.sublime-workspace
+*.sublime-project
+# System files
+*.DS_Store
+# Coverage reports

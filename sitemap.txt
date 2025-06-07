@@ -10,3 +10,5 @@ https://myshy13.github.io/src/cookieclicker/index.html
 https://myshy13.github.io/src/hexanautIO/index.html
 https://myshy13.github.io/src/asmallworldcup/index.html
 https://myshy13.github.io/src/bitlife/index.html
+https://myshy13.github.io/src/slope3/index.html
+https://myshy13.github.io/src/subwaysurfers/index.html
