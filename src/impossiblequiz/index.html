@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="the impossible quiz is a fun and challenging flash game where you answer tricky questions to progress." />
+    <meta name="keywords" content="impossible quiz, flash game, trivia" />
+    <title>The impossible quiz</title>
+  </head>
+  <body>
+    <div class="container" id="container" style="height: 100vh;width: 100vw;display: block;"></div>
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+    <script>
+      window.RufflePlayer = window.RufflePlayer || {};
+      window.addEventListener("DOMContentLoaded", () => {
+        let ruffle = window.RufflePlayer.newest();
+        let player = ruffle.createPlayer();
+        let container = document.getElementById("container");
+        player.style.width = "100%";
+        player.style.height = "100%";
+        document.body.style.margin = "0";
+        document.body.style.overflow = "hidden";
+        player.style.backgroundColor = "black";
+        container.appendChild(player);
+        player.load("./impossiblequiz.swf").then(() => {
+          player.play();
+        });
+      });
+    </script>
+  </body>
+</html>

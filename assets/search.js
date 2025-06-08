@@ -21,6 +21,7 @@ const games = [
   "papa's pizzeria",
   "papas pizzeria",
   "angry gran 2",
+  "the impossible quiz",
 ];
 
 let params = new URLSearchParams(new URL(window.location.href).search);
@@ -59,6 +60,13 @@ if (searchQuery != "" && searchQuery != null) {
           `${document.location.protocol}//${document.location.hostname}:${
             document.location.port
           }${"/src/papasfreezieria/index.html"}`
+        );
+        break;
+        case "the impossible quiz":
+        window.location.assign(
+          `${document.location.protocol}//${document.location.hostname}:${
+            document.location.port
+          }${"/src/impossiblequiz/index.html"}`
         );
         break;
       case "papa's pizzeria":
