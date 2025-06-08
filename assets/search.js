@@ -16,6 +16,8 @@ const games = [
   "bitlife simulator",
   "slope 3",
   "subway surfers",
+  "papa's freezeria",
+  "papas freezeria",
 ];
 
 let params = new URLSearchParams(new URL(window.location.href).search);
@@ -40,6 +42,20 @@ if (searchQuery != "" && searchQuery != null) {
           `${document.location.protocol}//${document.location.hostname}:${
             document.location.port
           }${"/src/jellytruck/index.html"}`
+        );
+        break;
+      case "papa's freezeria":
+        window.location.assign(
+          `${document.location.protocol}//${document.location.hostname}:${
+            document.location.port
+          }${"/src/papasfreezieria/index.html"}`
+        );
+        break;
+      case "papas freezeria":
+        window.location.assign(
+          `${document.location.protocol}//${document.location.hostname}:${
+            document.location.port
+          }${"/src/papasfreezieria/index.html"}`
         );
         break;
       case "minecraft":
@@ -70,7 +86,7 @@ if (searchQuery != "" && searchQuery != null) {
           }${"/src/slope/index.html"}`
         );
         break;
-        case "slope 3":
+      case "slope 3":
         window.location.assign(
           `${document.location.protocol}//${document.location.hostname}:${
             document.location.port
@@ -147,7 +163,7 @@ if (searchQuery != "" && searchQuery != null) {
           }${"/src/bitlife/index.html"}`
         );
         break;
-        case "subway surfers":
+      case "subway surfers":
         window.location.assign(
           `${document.location.protocol}//${document.location.hostname}:${
             document.location.port
