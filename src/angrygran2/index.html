@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>angry gran 2</title>
+  </head>
+  <body>
+    <div class="container" id="container" style="height: 100vh;width: 100vw;display: block;"></div>
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+    <script>
+      window.RufflePlayer = window.RufflePlayer || {};
+      window.addEventListener("DOMContentLoaded", () => {
+        let ruffle = window.RufflePlayer.newest();
+        let player = ruffle.createPlayer();
+        let container = document.getElementById("container");
+        player.style.width = "100%";
+        player.style.height = "100%";
+        document.body.style.margin = "0";
+        document.body.style.overflow = "hidden";
+        player.style.backgroundColor = "black";
+        container.appendChild(player);
+        player.load("./angrygran2.swf").then(() => {
+          player.play();
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -80,3 +80,8 @@ node_modules/.bin/
 # System files
 *.DS_Store
 # Coverage reports
+
+coverage/
+
+# things for the dev
+*/remember.md

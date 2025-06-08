@@ -20,6 +20,7 @@ const games = [
   "papas freezeria",
   "papa's pizzeria",
   "papas pizzeria",
+  "angry gran 2",
 ];
 
 let params = new URLSearchParams(new URL(window.location.href).search);
@@ -65,6 +66,13 @@ if (searchQuery != "" && searchQuery != null) {
           `${document.location.protocol}//${document.location.hostname}:${
             document.location.port
           }${"/src/papaspizzeria/index.html"}`
+        );
+        break;
+        case "angry gran 2":
+        window.location.assign(
+          `${document.location.protocol}//${document.location.hostname}:${
+            document.location.port
+          }${"/src/angrygran2/index.html"}`
         );
         break;
       case "papas pizzeria":
