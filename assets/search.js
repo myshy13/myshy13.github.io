@@ -18,6 +18,8 @@ const games = [
   "subway surfers",
   "papa's freezeria",
   "papas freezeria",
+  "papa's pizzeria",
+  "papas pizzeria",
 ];
 
 let params = new URLSearchParams(new URL(window.location.href).search);
@@ -56,6 +58,20 @@ if (searchQuery != "" && searchQuery != null) {
           `${document.location.protocol}//${document.location.hostname}:${
             document.location.port
           }${"/src/papasfreezieria/index.html"}`
+        );
+        break;
+      case "papa's pizzeria":
+        window.location.assign(
+          `${document.location.protocol}//${document.location.hostname}:${
+            document.location.port
+          }${"/src/papaspizzeria/index.html"}`
+        );
+        break;
+      case "papas pizzeria":
+        window.location.assign(
+          `${document.location.protocol}//${document.location.hostname}:${
+            document.location.port
+          }${"/src/papaspizzeria/index.html"}`
         );
         break;
       case "minecraft":
