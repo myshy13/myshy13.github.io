@@ -55,14 +55,21 @@ if (searchQuery != "" && searchQuery != null) {
           }${"/src/jellytruck/index.html"}`
         );
         break;
-        case "pacman":
+      case "pacman":
         window.location.assign(
           `${document.location.protocol}//${document.location.hostname}:${
             document.location.port
           }${"/src/pacman/index.html"}`
         );
         break;
-        case "tetris":
+      case "mariokart":
+        window.location.assign(
+          `${document.location.protocol}//${document.location.hostname}:${
+            document.location.port
+          }${"/src/mariokart/index.html"}`
+        );
+        break;
+      case "tetris":
         window.location.assign(
           `${document.location.protocol}//${document.location.hostname}:${
             document.location.port
@@ -83,14 +90,14 @@ if (searchQuery != "" && searchQuery != null) {
           }${"/src/fireboyandwatergirllighttemple/index.html"}`
         );
         break;
-        case "fire boy and water girl 2":
+      case "fire boy and water girl 2":
         window.location.assign(
           `${document.location.protocol}//${document.location.hostname}:${
             document.location.port
           }${"/src/fireboyandwatergirllighttemple/index.html"}`
         );
         break;
-        case "fire boy and water girl and the light temple":
+      case "fire boy and water girl and the light temple":
         window.location.assign(
           `${document.location.protocol}//${document.location.hostname}:${
             document.location.port
