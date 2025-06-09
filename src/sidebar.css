@@ -1,11 +1,12 @@
 .sidebar {
-  width: 23em;
+  width: 15em;
   background-color: #12419a;
   min-height: 100vh;
   min-width: fit-content;
 
   margin: 0px;
   margin-right: 10px;
+  width: fit-content;
 
   display:list-item;
   flex-direction: column;

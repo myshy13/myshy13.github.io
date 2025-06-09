@@ -151,42 +151,9 @@ this is for the game elements animation*/
   margin-bottom: 0;
 }
 
-.challengeLink {
-  font-family: "Boogaloo", sans-serif;
-  font-size: 3em;
-  background-color: #1c63e875;
-  height: 2em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50vw;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 0.2em;
-}
-
-@media (max-width: 1418px) {
+@media (max-width: 1400px) {
   .gameDisplay {
-    padding: 0.2em;
-  }
-}
-
-@media (max-width: 1282px) {
-  .gameDisplay {
-    padding: 0.2em;
-  }
-  .challengeLink {
-    font-size: large;
-  }
-}
-@media (width: 1142px) {
-  .gameDisplay {
-    padding: auto;
-  }
-}
-@media (max-width: 1742px) {
-  .gameDisplay {
-    padding: 0.5em;
+    margin: auto;
   }
 }
 
