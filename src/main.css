@@ -156,4 +156,17 @@ this is for the game elements animation*/
   margin: auto;
 }
 
+
+@media (max-width: 536px) {
+  .gameDisplay {
+    width: 100%;
+    height: fit-content;
+    padding: 0.5em;
+    margin: 0.5em;
+  }
+  .sidebar {
+    display: none;
+  }
+}
+
 /* css file fully loaded */
