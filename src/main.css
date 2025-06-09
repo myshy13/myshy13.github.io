@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "Boogaloo";
-  src: url('/src/Boogaloo/Boogaloo-Regular.ttf') format('truetype');
+  src: url("/src/Boogaloo/Boogaloo-Regular.ttf") format("truetype");
 }
 
 body {
@@ -152,10 +152,8 @@ this is for the game elements animation*/
   margin-bottom: 0;
 }
 
-@media (max-width: 1400px) {
-  .gameDisplay {
-    margin: auto;
-  }
+.gameDisplay {
+  margin: auto;
 }
 
 /* css file fully loaded */

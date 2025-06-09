@@ -28,6 +28,7 @@ const games = [
   "fire boy and water girl",
   "fireboy and watergirl 2",
   "fireboy and watergirl and the light temple",
+  "tetris",
 ];
 
 let params = new URLSearchParams(new URL(window.location.href).search);
@@ -59,6 +60,13 @@ if (searchQuery != "" && searchQuery != null) {
           `${document.location.protocol}//${document.location.hostname}:${
             document.location.port
           }${"/src/pacman/index.html"}`
+        );
+        break;
+        case "tetris":
+        window.location.assign(
+          `${document.location.protocol}//${document.location.hostname}:${
+            document.location.port
+          }${"/src/tetris/index.html"}`
         );
         break;
       case "fireboy and watergirl":
