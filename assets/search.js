@@ -54,6 +54,13 @@ if (searchQuery != "" && searchQuery != null) {
           }${"/src/jellytruck/index.html"}`
         );
         break;
+        case "pacman":
+        window.location.assign(
+          `${document.location.protocol}//${document.location.hostname}:${
+            document.location.port
+          }${"/src/pacman/index.html"}`
+        );
+        break;
       case "fireboy and watergirl":
         window.location.assign(
           `${document.location.protocol}//${document.location.hostname}:${
