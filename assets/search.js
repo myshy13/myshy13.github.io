@@ -22,6 +22,8 @@ const games = [
   "papas pizzeria",
   "angry gran 2",
   "the impossible quiz",
+  "mini putt",
+  "mini golf",
 ];
 
 let params = new URLSearchParams(new URL(window.location.href).search);
@@ -46,6 +48,20 @@ if (searchQuery != "" && searchQuery != null) {
           `${document.location.protocol}//${document.location.hostname}:${
             document.location.port
           }${"/src/jellytruck/index.html"}`
+        );
+        break;
+        case "mini putt":
+        window.location.assign(
+          `${document.location.protocol}//${document.location.hostname}:${
+            document.location.port
+          }${"/src/miniputt/index.html"}`
+        );
+        break;
+      case "mini golf":
+        window.location.assign(
+          `${document.location.protocol}//${document.location.hostname}:${
+            document.location.port
+          }${"/src/miniputt/index.html"}`
         );
         break;
       case "papa's freezeria":
