@@ -167,6 +167,9 @@ this is for the game elements animation*/
   .sidebar {
     display: none;
   }
+  .notMobile {
+    display: none;
+  }
 }
 
 /* css file fully loaded */
