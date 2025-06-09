@@ -6,8 +6,9 @@
 }
 
 body {
-  background-image: url("/background.jpg");
+  background-image: url("../background.png");
   background-size: cover;
+  background-repeat: repeat-y;
 
   display: flex;
 
