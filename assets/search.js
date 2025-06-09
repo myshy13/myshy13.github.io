@@ -24,6 +24,10 @@ const games = [
   "the impossible quiz",
   "mini putt",
   "mini golf",
+  "fireboy and watergirl",
+  "fire boy and water girl",
+  "fireboy and watergirl 2",
+  "fireboy and watergirl and the light temple",
 ];
 
 let params = new URLSearchParams(new URL(window.location.href).search);
@@ -50,7 +54,35 @@ if (searchQuery != "" && searchQuery != null) {
           }${"/src/jellytruck/index.html"}`
         );
         break;
-        case "mini putt":
+      case "fireboy and watergirl":
+        window.location.assign(
+          `${document.location.protocol}//${document.location.hostname}:${
+            document.location.port
+          }${"/src/fireboyandwatergirllighttemple/index.html"}`
+        );
+        break;
+      case "fire boy and water girl":
+        window.location.assign(
+          `${document.location.protocol}//${document.location.hostname}:${
+            document.location.port
+          }${"/src/fireboyandwatergirllighttemple/index.html"}`
+        );
+        break;
+        case "fire boy and water girl 2":
+        window.location.assign(
+          `${document.location.protocol}//${document.location.hostname}:${
+            document.location.port
+          }${"/src/fireboyandwatergirllighttemple/index.html"}`
+        );
+        break;
+        case "fire boy and water girl and the light temple":
+        window.location.assign(
+          `${document.location.protocol}//${document.location.hostname}:${
+            document.location.port
+          }${"/src/fireboyandwatergirllighttemple/index.html"}`
+        );
+        break;
+      case "mini putt":
         window.location.assign(
           `${document.location.protocol}//${document.location.hostname}:${
             document.location.port
@@ -78,7 +110,7 @@ if (searchQuery != "" && searchQuery != null) {
           }${"/src/papasfreezieria/index.html"}`
         );
         break;
-        case "the impossible quiz":
+      case "the impossible quiz":
         window.location.assign(
           `${document.location.protocol}//${document.location.hostname}:${
             document.location.port
@@ -92,7 +124,7 @@ if (searchQuery != "" && searchQuery != null) {
           }${"/src/papaspizzeria/index.html"}`
         );
         break;
-        case "angry gran 2":
+      case "angry gran 2":
         window.location.assign(
           `${document.location.protocol}//${document.location.hostname}:${
             document.location.port
