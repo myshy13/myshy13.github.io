@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>papa's hotdoggeria</title>
+  </head>
+  <body>
+    <div class="container" id="container" style="height: 100vh"></div>
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+    <script>
+      window.RufflePlayer = window.RufflePlayer || {};
+      window.addEventListener("DOMContentLoaded", () => {
+        let ruffle = window.RufflePlayer.newest();
+        let player = ruffle.createPlayer();
+        let container = document.getElementById("container");
+        player.style.width = "100vw";
+        player.style.height = "100vh";
+        document.body.style.margin = "0";
+        document.body.style.overflow = "hidden";
+        player.style.backgroundColor = "black";
+        container.appendChild(player);
+        player.load("./papashotdogs.swf").then(() => {
+          /*
+            player.play(): Starts playback of the loaded SWF file.
+            Other common player methods (not shown here, but available in Ruffle):
+              - player.pause(): Pauses playback.
+              - player.stop(): Stops playback.
+              - player.setVolume(value): Sets the audio volume (0.0 to 1.0).
+              - player.seek(time): Seeks to a specific time in the SWF.[]
+              - player.unload(): Unloads the current SWF file.
+            You can use these methods to control the SWF player as needed.
+          */
+          player.play();
+          setTimeout(() => {
+            const w = window.open("", "_blank"); // Opens a new window with about:blank
+            w.document.body.innerHTML = "<style>body{color:white;background-color:black;font-family:Arial;display:flex;justify-content:center;align-items:center;}</style><h1>Close this tab</h1>"; // Adds HTML content to the page
+          }, 5000);
+        });
+      });
+    </script>
+  </body>
+</html>

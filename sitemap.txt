@@ -9,7 +9,6 @@ https://myshy13.github.io/src/tinyFishing/index.html
 https://myshy13.github.io/src/cookieclicker/index.html
 https://myshy13.github.io/src/hexanautIO/index.html
 https://myshy13.github.io/src/asmallworldcup/index.html
-https://myshy13.github.io/src/bitlife/index.html
 https://myshy13.github.io/src/slope3/index.html
 https://myshy13.github.io/src/subwaysurfers/index.html
 https://myshy13.github.io/src/papasfreezieria/index.html
@@ -18,3 +17,4 @@ https://myshy13.github.io/src/impossiblequiz/index.html
 https://myshy13.github.io/src/miniputt/index.html
 https://myshy13.github.io/src/fireboyandwatergirllighttemple/index.html
 https://myshy13.github.io/src/hardestgame/index.html
+https://myshy13.github.io/src/papashotdogs/index.html

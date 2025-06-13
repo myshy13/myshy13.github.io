@@ -12,8 +12,6 @@ const games = [
   "hexanaut.io",
   "a small world cup",
   "asmallworldcup",
-  "bitlife",
-  "bitlife simulator",
   "slope 3",
   "subway surfers",
   "papa's freezeria",
@@ -33,6 +31,8 @@ const games = [
   "pacman",
   "the world's hardest game",
   "the worlds hardest game",
+  "papas hotdoggeria",
+  "papa's hotdoggeria",
 ];
 
 let params = new URLSearchParams(new URL(window.location.href).search);
@@ -59,6 +59,20 @@ if ((results.length = 1)) {
         `${document.location.protocol}//${document.location.hostname}:${
           document.location.port
         }${"/src/jellytruck/index.html"}`
+      );
+      break;
+    case "papas hotdoggeria":
+      window.location.assign(
+        `${document.location.protocol}//${document.location.hostname}:${
+          document.location.port
+        }${"/src/papashotdogs/index.html"}`
+      );
+      break;
+    case "papa's hotdoggeria":
+      window.location.assign(
+        `${document.location.protocol}//${document.location.hostname}:${
+          document.location.port
+        }${"/src/papashotdogs/index.html"}`
       );
       break;
     case "pacman":
@@ -269,20 +283,6 @@ if ((results.length = 1)) {
         `${document.location.protocol}//${document.location.hostname}:${
           document.location.port
         }${"/src/asmallworldcup/index.html"}`
-      );
-      break;
-    case "bitlife":
-      window.location.assign(
-        `${document.location.protocol}//${document.location.hostname}:${
-          document.location.port
-        }${"/src/bitlife/index.html"}`
-      );
-      break;
-    case "bitlife simulator":
-      window.location.assign(
-        `${document.location.protocol}//${document.location.hostname}:${
-          document.location.port
-        }${"/src/bitlife/index.html"}`
       );
       break;
     case "subway surfers":
