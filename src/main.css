@@ -156,7 +156,6 @@ this is for the game elements animation*/
   margin: auto;
 }
 
-
 @media (max-width: 536px) {
   .gameDisplay {
     width: 100%;
@@ -169,6 +168,24 @@ this is for the game elements animation*/
   }
   .notMobile {
     display: none;
+  }
+}
+
+@media (max-width: 300px) {
+  .gameDisplay {
+    padding: 0em;
+    border: none;
+    outline: none;
+  }
+  .gameDisplay > .gameIcon {
+    margin: 0;
+    padding: 0;
+    height: 5em;
+  }
+  .gameDisplay > h1,
+  .gameDisplay > h2,
+  .gameDisplay > h3 {
+    font-size: large;
   }
 }
 

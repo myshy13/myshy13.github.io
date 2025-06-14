@@ -3,6 +3,7 @@
   "specifiers": {
     "jsr:@std/assert@1": "1.0.13",
     "jsr:@std/internal@^1.0.6": "1.0.8",
+    "npm:@mlc-ai/web-llm@~0.2.79": "0.2.79",
     "npm:vite@^6.3.5": "6.3.5_picomatch@4.0.2"
   },
   "jsr": {
@@ -141,6 +142,12 @@
       "integrity": "sha512-nOT2vZNw6hJ+z43oP1SPea/G/6AbN6X+bGNhNuq8NtRHy4wsMhw765IKLNmnjek7GvjWBYQ8Q5VBoYTFg9y1UQ==",
       "os": ["win32"],
       "cpu": ["x64"]
+    },
+    "@mlc-ai/web-llm@0.2.79": {
+      "integrity": "sha512-Hy1ZHQ0o2bZGZoVnGK48+fts/ZSKwLe96xjvqL/6C59Mem9HoHTcFE07NC2E23mRmhd01tL655N6CPeYmwWgwQ==",
+      "dependencies": [
+        "loglevel"
+      ]
     },
     "@pkgjs/parseargs@0.11.0": {
       "integrity": "sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg=="
@@ -449,6 +456,9 @@
       "os": ["darwin"],
       "scripts": true
     },
+    "loglevel@1.9.2": {
+      "integrity": "sha512-HgMmCqIJSAKqo68l0rS2AanEWfkxaZ5wNiEFb5ggm08lDs9Xl2KxBlX3PTcaD2chBM1gXAYf491/M2Rv8Jwayg=="
+    },
     "nanoid@3.3.11": {
       "integrity": "sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==",
       "bin": true
@@ -529,6 +539,7 @@
     ],
     "packageJson": {
       "dependencies": [
+        "npm:@mlc-ai/web-llm@~0.2.79",
         "npm:vite@^6.3.5"
       ]
     }
