@@ -138,6 +138,13 @@
         <li>papa's hotdoggeria</li>
       </a>
     </ul>
+    <div>
+      <h3>Mr GOAT</h3>
+      <h6>
+        <p><a href="credits.html">credits</a></p>
+        <p><a href="https://hexanaut.io">hexanaut.io website</a></p>
+      </h6>
+    </div>
   </div>
   <!-- start content -->
   <div class="content">
@@ -259,6 +266,17 @@
   </div>
   <!-- end content -->
   <script src="assets/search.js?"></script>
+
+  <script>
+    (function() {
+      const params = new URLSearchParams(window.location.search);
+      if (params.has('noredirect')) {
+        document.querySelectorAll('a[target="_blank"]').forEach(a => {
+          a.removeAttribute('target');
+        });
+      }
+    })();
+  </script>
 </body>
 
 </html>
